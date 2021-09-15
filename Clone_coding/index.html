@@ -1,0 +1,53 @@
+<!-- 대부분의 웹 서버는 디폴트로 index.himl을 찾도록 되어있음 -->
+<!-- 여기서 '!'만 치고 엔터 눌러도 기본 형식이 완성된다. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 여기서 'link:css'만 치고 엔터 눌러도 기본 형식은 완성된다. -->
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Clone Messanger</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- i는 아이콘의 준말 -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <!-- fa-2x 이런식으로 아이콘의 배율을 조정할 수 있다
+        font awesome의 기능 -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Clone Messanger</h1>
+      <p class="welcome-header__text">
+        If you have a Clone Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form class="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" placeholder="Log In" />
+      <a href="#">Find Clone Account or Password</a>
+    </form>
+    <!-- form 안에 링크를 넣음으로써 login-form을 통해 링크를 가리킬 수 있다 -->
+    <!-- 링크는 굉장히 많이 사용되기 때문에 일일히 id나 class를 추가하는데 손이 많이 가기 때문에 이렇게 가리킨다 -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script>는 항상 마지막에 있어야 함 body를 닫기 전에 -->
+  </body>
+</html>
+
+<!-- image source by Heroicons and Font Awesome -->
