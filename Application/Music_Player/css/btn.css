@@ -1,0 +1,29 @@
+.Music-Player {
+  padding-right: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 70px;
+}
+
+.btn-Play {
+  width: 160px;
+
+  border-bottom-width: 6px;
+  border-radius: 20px;
+}
+
+.btn-Recommand,
+.btn-Plus {
+  width: 60px;
+  border-bottom-width: 6px;
+  border-radius: 40%;
+}
+
+.btn-Play:active {
+  border-bottom-width: 1px;
+}
+.btn-Recommand:active,
+.btn-Plus:active {
+  border-bottom-width: 1px;
+}

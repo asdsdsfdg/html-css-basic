@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "Playing-Music.css";
+@import "btn.css";
+@import "playlist.css";
+body {
+  height: 100vh;
+  font-family: "Roboto Slab", serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  border: 5px solid rgb(165, 42, 42);
+  background-color: rgb(235, 212, 181);
+  border-radius: 15px;
+  width: 400px;
+}

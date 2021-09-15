@@ -1,0 +1,32 @@
+.status-bar {
+  margin-top: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child {
+  margin-left: 35px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  opacity: 0;
+  margin-right: 29px;
+}
+
+.status-bar__column:nth-child(2) span {
+  font-size: 30px;
+  font-weight: bolder;
+}
