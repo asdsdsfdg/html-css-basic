@@ -1,0 +1,53 @@
+.Book-of-the-day {
+  padding: 10px 15px;
+}
+.Book-of-the-day__header {
+  font-size: 20px;
+  font-weight: 900;
+}
+.Book-of-the-day__wrapper {
+  padding-top: 15px;
+  display: flex;
+}
+
+.Book-of-the-day__info {
+  width: 180px;
+  position: relative;
+  left: 10px;
+}
+.Book-of-the-day__cover {
+  width: 110px;
+  height: 170px;
+  border: solid black;
+}
+.Book-of-the-day__book {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+}
+.Book-of-the-day__booktitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}
+
+.Book-of-the-day__reputation {
+  padding: 10px 0px;
+}
+
+.Book-of-the-day__btn1 {
+  padding: 10px 0px;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Book-of-the-day__btn1 button {
+  padding: 2px;
+  width: 80px;
+  height: 25px;
+}
+
+.Book-of-the-day__btn2 {
+  display: flex;
+  justify-content: space-between;
+}

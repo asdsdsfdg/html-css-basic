@@ -1,0 +1,28 @@
+.status-bar {
+  background-color: #ffce33;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px 40px 15px;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child {
+  padding-top: 5px;
+}
+
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:nth-child(2) span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 6px;
+}
