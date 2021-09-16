@@ -1,0 +1,34 @@
+.Popular-authors {
+  padding: 10px 15px;
+}
+.Popular-authors__header {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.Popular-authors__wrapper {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Popular-authors__picture {
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.Popular-authors__info {
+  padding-right: 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 25px;
+  position: relative;
+  left: 12px;
+}
+
+.Popular-authors__name {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1);
+}

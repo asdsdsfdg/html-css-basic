@@ -4,6 +4,8 @@
 @import "components/status-bar.css";
 @import "components/Book-of-the-day.css";
 @import "components/Searchbar.css";
+@import "components/Top-Adventures.css";
+@import "components/author.css";
 * {
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -26,92 +28,4 @@ body {
 
 .fa-star {
   color: var(--yellow);
-}
-
-.Top-Adventures {
-  padding: 10px 15px;
-}
-
-.Top-Adventures__header {
-  font-size: 20px;
-  font-weight: 900;
-}
-.Top-Adventures__list {
-  display: flex;
-  justify-content: space-between;
-  overflow-x: scroll;
-  flex-wrap: nowrap;
-}
-
-.Top-Adventures__list::-webkit-scrollbar {
-  display: none;
-}
-/* 
-*::-webkit-scrollbar {
-  display: none;
-} */
-
-.Top-Adventures__books {
-  padding: 10px 15px 5px 0px;
-}
-.Top-Adventures__covers {
-  width: 70px;
-  height: 110px;
-  border: 1px solid black;
-}
-
-.Top-Adventures__reputation {
-  padding-top: 20px;
-  font-size: 0.5rem;
-  text-align: center;
-}
-
-.btn2__bookmark {
-  width: 33px;
-  height: 33px;
-  border-radius: 50%;
-  background-color: var(--yellow);
-}
-
-.btn2__BookNow {
-  background-color: black;
-  width: 130px;
-  height: 35px;
-  color: white;
-  border-radius: 10px;
-}
-
-.Popular-authors {
-  padding: 10px 15px;
-}
-.Popular-authors__header {
-  font-size: 20px;
-  font-weight: 900;
-}
-
-.Popular-authors__wrapper {
-  padding: 20px 0px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.Popular-authors__picture {
-  width: 200px;
-  height: 150px;
-  border: 2px solid black;
-}
-
-.Popular-authors__info {
-  padding-right: 5px;
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
-  line-height: 25px;
-  position: relative;
-  left: 12px;
-}
-
-.Popular-authors__name {
-  font-size: 22px;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 1);
 }
