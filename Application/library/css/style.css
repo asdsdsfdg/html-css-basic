@@ -102,13 +102,12 @@ body {
 }
 
 .Popular-authors__info {
-    padding-right: 5px;
+  padding-right: 5px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.5);
   line-height: 25px;
   position: relative;
   left: 12px;
-  padding
 }
 
 .Popular-authors__name {
