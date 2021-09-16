@@ -1,0 +1,69 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  /* flex를 쓰는 방법도 있지만 요소들이 p나 h같은 텍스트들이기에 text-align을 통헤 
+    중앙으로 정렬해주는 것도 괜찮다 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 50%;
+  opacity: 0.7;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+.login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.2);
+}
+/* 
+  input:focus{
+    outline: none;
+  } */
+/* 위의 코드는 이 프로젝트의 모든 파일에 적용할 것이기 때문에 reset.css에 추가한다. */
+
+.login-form input:focus {
+  border-color: var(--yellow);
+}
+
+.login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+/* css not 은 어떤 것에 적용되지 않기를 바랄 때 사용한다. 
+  해석하면 타입이 submit인 input에는 해당 명령어들을 적용하지 않는다는 것이다. */
+
+.login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  /* 이건 submit 타입에 커서를 올렸을 때 커서 모양이 변하도록 한다 */
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
