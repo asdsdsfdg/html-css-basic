@@ -1,0 +1,26 @@
+.Playlist__list {
+  padding: 28px 26px;
+}
+.Playlist__list li img {
+  border-radius: 10%;
+  height: 51px;
+  width: 51px;
+}
+
+.Playlist__text {
+  margin: 4px 5px;
+  line-height: 24px;
+}
+
+.Playlist__list li {
+  display: flex;
+  margin: 10px 0px;
+}
+
+.Playlist__text p {
+  margin-left: 13px;
+}
+.Playlist__text p span {
+  font-size: 20px;
+  font-weight: 600;
+}

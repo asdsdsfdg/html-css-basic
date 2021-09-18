@@ -1,0 +1,39 @@
+@import "reset.css";
+
+/* componnents */
+@import "Playlist.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #f6f6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Screen {
+  width: 345px;
+  height: 740px;
+  background-color: white;
+  border: solid black;
+  border-radius: 10%;
+  padding: 15px 13px;
+}
+/* 
+.Playlist {
+  margin-right: 51px;
+}
+
+.Player {
+  margin-left: 51px;
+} */
+
+.status-bar {
+}
