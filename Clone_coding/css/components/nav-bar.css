@@ -1,9 +1,14 @@
 .nav {
+  position: fixed;
   bottom: 0;
   width: 100%;
   background-color: whitesmoke;
   padding: 20px 50px;
   box-sizing: border-box;
+  /* padding을 40px 왼쪽에 추가한다고 했을 때, css는 기존에 설정된 width를 유지한 채로
+  왼편에 40px의 padding을 붙여버린다. 즉 총 박스의 크기는 기존 width에 40px가 추가되게 되는데
+  이를 방지하기 위해 box의 전체 사이즈를 늘리지 말라고 하는 명령어가 바로 box-sizing: border-box
+  다. */
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 .nav__list {
@@ -12,4 +17,22 @@
 }
 .nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  border-radius: 15px;
+  /* 완전한 원을 만들고 싶으면 너비의 절반정도 주자. 또느 50%정도 */
+  width: 30px;
+  height: 30px;
+  /* span은 inline이기 때문에 너비라던지 설정이 되지 않는다. block 또는 flex으로 바꿔주자 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
