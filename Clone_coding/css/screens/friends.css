@@ -19,3 +19,41 @@
   padding: 10px 0px;
   font-weight: 500;
 }
+
+#loading {
+  background-color: rgb(253, 200, 100);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: loadingscreen 2s ease-in-out forwards;
+}
+
+#loading img {
+  width: 250px;
+  height: 200px;
+  animation: rotatemask 1.5s linear;
+}
+
+@keyframes loadingscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes rotatemask {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(720deg);
+  }
+}
