@@ -9,12 +9,14 @@
 @import "components/user-component.css";
 @import "components/nav-bar.css";
 @import "components/badge.css";
+@import "components/icon-menus.css";
 
 /* screens */
 
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/chats.css";
+@import "screens/find.css";
 
 * {
   box-sizing: border-box;
@@ -38,7 +40,7 @@ body::after {
   top: 0;
   left: 0;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.45;
 }
 
 /* 배경이미지만 투명하게 하기 위해 가상요소 after을 사용함. 여기서 주의할 점은 이미지가 있기에 content는 반드시 ""로 해야함 */
