@@ -1,0 +1,34 @@
+.screen-header__menus .fa-comment-dots {
+  margin-top: 7px;
+  margin-left: 25px;
+}
+
+.user-component__subtitle {
+  margin-top: 5px;
+  margin-left: 20px;
+  opacity: 0.7;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-component__column:last-child .badge {
+  margin-top: 5px;
+  animation: badgeflip2 1s ease-in-out infinite;
+}
+
+@keyframes badgeflip2 {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}

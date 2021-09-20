@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="Chats" content="width=device-width, initial-scale=1.0" />
+    <title>Chats</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>22:12</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="screen-header">
+      <div class="screen-header__title">
+        <span>Chats</span>
+      </div>
+      <div class="screen-header__menus">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="far fa-comment-dots fa-lg"></i>
+        <i class="fas fa-music fa-lg"></i>
+        <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+      </div>
+    </div>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://i.pinimg.com/originals/50/8c/91/508c91273d9cadd223116f8fdab1d17a.gif"
+            class="user-component__img"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Mr. Smoke</h4>
+            <h5 class="user-component__subtitle">
+              I know what you`re wondering: 'what`s in the canister?'
+            </h5>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>22:12</span>
+          <span class="user-component__column badge"> 1 </span>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <li class="nav-bar___btn">
+          <a class="nav-bar__link" href="friends.html"
+            ><i class="fas fa-users fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar___btn">
+          <a class="nav-bar__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav-bar___btn">
+          <a class="nav-bar__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar___btn">
+          <a class="nav-bar__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
